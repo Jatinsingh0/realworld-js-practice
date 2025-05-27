@@ -31,5 +31,5 @@ These problems are not textbook exercises — they are situations developers fac
 
 ## 🤝 Let's Connect
 
-I'm open to feedback, discussion, or collaboration! Feel free to reach out on [LinkedIn](www.linkedin.com/in/jatinsinghnextjs) or follow my journey.
+I'm open to feedback, discussion, or collaboration! Feel free to reach out on [LinkedIn](https://www.linkedin.com/in/jatin-singh-a9147526b/) and [Twitter](https://x.com/jatinSingh012) and follow my journey.
 
