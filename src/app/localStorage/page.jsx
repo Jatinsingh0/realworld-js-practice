@@ -22,7 +22,7 @@ const LocalStorageNotesList = () => {
   const handleAddNote = () => {
     if(input.trim()){
         setNotes(prev => [...prev, input]);
-        setNotes(" ");
+        setInput("");
     }
   };
   
@@ -52,9 +52,9 @@ const LocalStorageNotesList = () => {
   </button>
 
   <div className="border-t pt-4">
-    <p className="text-sm text-gray-500 mb-2">🧠 Your notes are saved in your browser!</p>
+    <p className="text-sm text-gray-500 mb-2">Your notes are saved in your browser!</p>
     <ul className="list-disc list-inside space-y-1 text-blue-800 text-sm">
-      {notes.length > 0 ? (
+     {notes.length > 0 ? (
         notes.map((n, i) => <li key={i}>{n}</li>)
       ) : (
         <p className="text-gray-400 italic">No notes yet...</p>
