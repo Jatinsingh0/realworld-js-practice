@@ -67,26 +67,3 @@
  export default scrollToView
 
 
-// useMemo hook
-// import { useMemo, useState } from "react";
-
-// const expensiveLoading = () => {
-//     const[count, setCount] =  useState(0)
-//     const avoidingExpensivLoading = useMemo(()=> {
-//        let result = 0;
-//        for(let i = 0; i < 100000; i++){
-//         result += count
-//        }
-//        return result;
-//     }, [count])
-//     return (
-//         <div>
-//           <p>expensive Calculation: {avoidingExpensivLoading}</p>
-//           <button onClick={()=> setCount(count + 1)}>Increment count</button>
-//         </div>
-//     )
-// }
-
-// export default expensiveLoading
-
-
